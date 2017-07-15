@@ -24,7 +24,7 @@ def random_linear_data_init(data_size, num_features, num_classes): # method for 
     training_labels = X / np.sum(X, axis=1).reshape(data_size,1)
     return training_data, training_labels
 
-# training_data, training_labels, correct_index = import_from_csv('/Users/JAustin/Desktop/MNIST/train.csv', 255)
+# training_data, training_labels, correct_index = import_from_csv('/Users/.../Desktop/MNIST/train.csv', 255)
 training_data, training_labels, correct_index = random_data_init(20000, 784, 10)
 # training_data, training_labels = random_linear_data_init(20000, 784, 10)
 
