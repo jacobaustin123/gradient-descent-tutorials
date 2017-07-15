@@ -1,3 +1,7 @@
+""" A class based implementation of the logistic-regression numpy program,
+marginally easier to use and extend"""
+
+
 import numpy as np
 
 # def import_from_csv(self, path, pixel_depth, length, class_num):
